@@ -52,6 +52,12 @@ p,
 ul {
   padding-inline-start: 0;
 }
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  list-style: none;
+}
 
 /* УТИЛИТЫ */
 .container {
@@ -61,12 +67,7 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
-.list {
-  margin-top: 0;
-  margin-bottom: 0;
 
-  list-style: none;
-}
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -80,7 +81,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
-.logo-second-color {
+.logo__second-color-header {
   color: var(--logo-color-second);
 }
 .logo-second-color-footer {
@@ -97,10 +98,9 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 1);
 }
 
-.main-nav {
+.page-header__box {
   display: flex;
   align-items: center;
 
@@ -108,27 +108,27 @@ ul {
 }
 
 /* HEADER NAV */
-.site-nav-list {
+.site-nav {
   display: flex;
 
   margin-left: 93px;
 }
-.site-nav-list .item + .item {
+.site-nav .item + .item {
   margin-left: 50px;
 }
-.site-nav-list .link {
-  color: var(--primary-text-color);
+.site-nav__link {
+  color: rgba(33, 33, 33, 1);
 
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms var(--animation-cubic);
 }
-.site-nav-list .link.current {
+.site-nav__link.current {
   color: var(--accent-text-color);
   position: relative;
 }
 
-.site-nav-list .link.current::before {
+.site-nav__link.current::before {
   bottom: 0;
   position: absolute;
   display: inline-block;
@@ -140,41 +140,41 @@ ul {
   border-radius: 2px;
 }
 
-.site-nav-item .link:focus,
-.site-nav-item .link:hover {
+.site-nav__link:focus,
+.site-nav__link:hover {
   color: var(--accent-text-color);
 }
 
 /* HEADER CONTACT */
-.header-contact-list {
+.header-contact {
   display: flex;
   margin-left: auto;
 }
-.header-contact-list .item + .item {
+.header-contact .item + .item {
   margin-left: 50px;
 }
-.header-contact-list .link {
+.header-contact__link {
   color: var(--secondary-text-color);
 
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-contact-item {
+.header-contact__item {
   display: inline-flex;
   justify-content: center;
   align-items: center;
 
   fill: #757575;
 }
-.header-contact-item .link {
+.header-contact__item .link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   transition: 250ms var(--animation-cubic);
 }
-.header-contact-item .link:focus,
-.header-contact-item .link:hover {
+.header-contact__item .link:focus,
+.header-contact__item .link:hover {
   color: var(--accent-text-color);
 }
 
