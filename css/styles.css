@@ -175,7 +175,7 @@ ul {
   color: var(--accent-text-color);
 }
 
-.contact-ico {
+.header-contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -851,10 +851,6 @@ ul {
   color: #fff;
 }
 
-/* input:hover::placeholder {
-  color: #2196f3;
-} */
-
 .subscribe-box {
   margin-left: auto;
   margin-top: 12px;
@@ -950,41 +946,12 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.filter-image {
-  display: block;
-
-  margin-left: -1px;
-  margin-top: -1px;
+.radio-filter-item:hover .radio-filter-thumb:before {
+  transform: translateY(0);
 }
 
-.radio-filter-box {
-  padding: 20px 24px;
-}
-
-.radio-filter-title {
-  margin-bottom: 4px;
-  margin-top: 0px;
-
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
-
-.radio-filter-text {
-  margin-bottom: 0;
-  margin-top: 0;
-
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+.radio-filter-item:hover .radio-filter-thumb__hover {
+  transform: translateY(0);
 }
 
 .radio-filter-thumb {
@@ -1001,8 +968,7 @@ ul {
   bottom: 0;
   transform: translateY(100%);
 }
-
-.radio-filter-hover {
+.radio-filter-thumb__hover {
   display: inline-block;
   position: absolute;
   content: "";
@@ -1016,25 +982,48 @@ ul {
   justify-content: center;
   position: absolute;
   width: 100%;
-
   top: 0;
-
   transition: transform 250ms var(--animation-cubic);
 }
-
-.radio-filter-hover p {
+.radio-filter-thumb__text {
   margin: 63px 24px 0 24px;
-
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
-.radio-filter-item:hover .radio-filter-thumb:before {
-  transform: translateY(0);
+.radio-filter-thumb__image {
+  display: block;
+  margin-left: -1px;
+  margin-top: -1px;
 }
 
-.radio-filter-item:hover .radio-filter-hover {
-  transform: translateY(0);
+.radio-filter-box {
+  padding: 20px 24px;
+}
+
+.radio-filter-box__title {
+  margin-bottom: 4px;
+  margin-top: 0px;
+
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.radio-filter-box_subtitle {
+  margin-bottom: 0;
+  margin-top: 0;
+
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }

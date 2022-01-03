@@ -35,7 +35,7 @@
             <ul class="header-contact">
                 <li class="header-contact__item item">
                     <a class="header-contact__link link" href="mailto:info@devstudio.com">
-                        <svg class="contact-ico" width='16px' height='12px'>
+                        <svg class="header-contact__icon" width='16px' height='12px'>
                             <use href='./images/sprite.svg#icon-envelope'></use>
                         </svg>
                         info@devstudio.com
@@ -43,7 +43,7 @@
                 </li>
                 <li class="header-contact__item item">
                     <a class="header-contact__link link" href="tel:+38096111111">
-                        <svg class="contact-ico" width='10px' height='16px'>
+                        <svg class="header-contact__icon" width='10px' height='16px'>
                             <use href='./images/sprite.svg#icon-smartphone'></use>
                         </svg>
                         +38 096 111 11 11</a>
@@ -53,178 +53,178 @@
     </header>
     <main>
         <!-- Секция ПОРТФОЛИО -->
-        <section class="section-portfolio section">
+        <section class="section">
             <div class="container">
                 <!-- RADIO BUTTONS -->
-                <ul class="radio-buttons-list list">
-                    <li class="radio-buttons-item item">
+                <ul class="radio-buttons-list">
+                    <li class="item">
                         <button class="radio-button current" type="button">Все</button>
                     </li>
-                    <li class="radio-buttons-item item">
+                    <li class="item">
                         <button class="radio-button" type="button">Веб-сайты</button>
                     </li>
-                    <li class="radio-buttons-item item">
+                    <li class="item">
                         <button class="radio-button" type="button">Приложения</button>
                     </li>
-                    <li class="radio-buttons-item item">
+                    <li class="item">
                         <button class="radio-button" type="button">Дизайн</button>
                     </li>
-                    <li class="radio-buttons-item item">
+                    <li class="item">
                         <button class="radio-button" type="button">Маркетинг</button>
                     </li>
                 </ul>
                 <!-- ФИЛЬТР СВЯЗАННЫЙ С RADIO BUTTONS -->
-                <ul class="radio-filter-list list">
+                <ul class="radio-filter-list">
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/tech.jpg" alt="ноутбук с веб-сайтом">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/tech.jpg" alt="ноутбук с веб-сайтом">
                                 </div>
                                 <div class="radio-filter-box">
-                                    <h2 class="radio-filter-title">Технокряк</h2>
-                                    <p class="radio-filter-text">Веб-сайт</p>
+                                    <h2 class="radio-filter-box__title">Технокряк</h2>
+                                    <p class="radio-filter-box_subtitle">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non, vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/poster.jpg"
+                                <img width="370" class="radio-filter-thumb__image" src="./images/poster.jpg"
                                 alt="баскетболист нового орлеана против баскетболиста голден стар">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Постер New Orlean vs Golden Star</h2>
-                                <p class="radio-filter-text">Дизайн</p>
+                                <h2 class="radio-filter-box__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="radio-filter-box_subtitle">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/seafood.jpg" alt="логотип ресторана сифуд с изображением рыбы">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/seafood.jpg" alt="логотип ресторана сифуд с изображением рыбы">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Ресторан Seafood</h2>
-                                <p class="radio-filter-text">Приложение</p>
+                                <h2 class="radio-filter-box__title">Ресторан Seafood</h2>
+                                <p class="radio-filter-box_subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/prime.jpg" alt="наушники">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/prime.jpg" alt="наушники">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Проект Prime</h2>
-                                <p class="radio-filter-text">Маркетинг</p>
+                                <h2 class="radio-filter-box__title">Проект Prime</h2>
+                                <p class="radio-filter-box_subtitle">Маркетинг</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/boxes.jpg" alt="две коробки">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/boxes.jpg" alt="две коробки">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Проект Boxes</h2>
-                                <p class="radio-filter-text">Приложение</p>
+                                <h2 class="radio-filter-box__title">Проект Boxes</h2>
+                                <p class="radio-filter-box_subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/borders.jpg" alt="монитор с сайтом">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/borders.jpg" alt="монитор с сайтом">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Inspiration has no Borders</h2>
-                                <p class="radio-filter-text">Веб-Сайт</p>
+                                <h2 class="radio-filter-box__title">Inspiration has no Borders</h2>
+                                <p class="radio-filter-box_subtitle">Веб-Сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/limited.jpg" alt="Книга">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/limited.jpg" alt="Книга">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Издание Limited Edition</h2>
-                                <p class="radio-filter-text">Дизайн</p>
+                                <h2 class="radio-filter-box__title">Издание Limited Edition</h2>
+                                <p class="radio-filter-box_subtitle">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/lab.jpg" alt="этикетка">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/lab.jpg" alt="этикетка">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Проект LAB</h2>
-                                <p class="radio-filter-text">Маркетинг</p>
+                                <h2 class="radio-filter-box__title">Проект LAB</h2>
+                                <p class="radio-filter-box_subtitle">Маркетинг</p>
                             </div>
                         </a>
                     </li>
                     <li class="radio-filter-item item">
-                        <a href="" class="radio-item-link">
+                        <a href="">
                             <div class="radio-filter-thumb">
-                                <div class="radio-filter-hover">
-                                    <p>
+                                <div class="radio-filter-thumb__hover">
+                                    <p class="radio-filter-thumb__text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam iusto, distinctio autem, tempora non,
                                         vel dignissimos temporibus dolorum magni sequi omnis iste. Iste at delectus, error iure hic adipisci.
                                     </p>
                                 </div>
-                                <img width="370" class="filter-image" src="./images/growing.jpg" alt="ноутбук с веб-сайтом">
+                                <img width="370" class="radio-filter-thumb__image" src="./images/growing.jpg" alt="ноутбук с веб-сайтом">
                             </div>
                             <div class="radio-filter-box">
-                                <h2 class="radio-filter-title">Growing Business</h2>
-                                <p class="radio-filter-text">Приложение</p>
+                                <h2 class="radio-filter-box__title">Growing Business</h2>
+                                <p class="radio-filter-box_subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -234,20 +234,19 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="footer-box">
-                <div class="main-footer-box">
-                    <a href="./index.html" class="logo">Web<span
-                            class="logo__second-color-footer">Studio</span></a>
-                    <address class="container-adress-footer">
-                        <ul class="footer-list list">
-                            <li class="item">
-                                <a class="map" href="">г. Киев, пр-т Леси Украинки, 26</a>
+            <div class="page-footer__container">
+                <div class="page-footer__links-box">
+                    <a href="./index.html" class="logo">Web<span class="logo__second-color-footer">Studio</span></a>
+                    <address class="page-footer__address-box">
+                        <ul class="footer-list">
+                            <li class="footer-list__item">
+                                <a class="footer-list__map" href="">г. Киев, пр-т Леси Украинки, 26</a>
                             </li>
-                            <li class="item">
-                                <a class="mail" href="mailto:info@example.com">info@example.com</a>
+                            <li class="footer-list__item">
+                                <a class="footer-list__mail" href="mailto:info@example.com">info@example.com</a>
                             </li>
-                            <li class="item">
-                                <a class="phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                            <li class="footer-list__item">
+                                <a class="footer-list__phone" href="tel:+380991111111">+38 099 111 11 11</a>
                             </li>
                         </ul>
                     </address>
@@ -255,34 +254,34 @@
                 <!-- Присоединяйтесь -->
                 <div class="connecting-box">
                     <div>
-                        <h3 class="connecting-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                        <h3 class="connecting-box__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
                     </div>
                     <div>
-                        <ul class="connecting-list">
-                            <li>
-                                <a href="#" class="connecting-icon instagram" aria-label="instagram">
-                                    <svg class="footer-ico" width='20px' height='20px'>
+                        <ul class="connecting-box__list">
+                            <li class="connecting-item">
+                                <a href="#" class="connecting-item__link" aria-label="instagram">
+                                    <svg class="connecting-item__icon" width='20px' height='20px'>
                                         <use href='./images/sprite.svg#icon-instagram'></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="connecting-icon twitter" aria-label="Twitter">
-                                    <svg class="footer-ico" width='20px' height='20px'>
+                            <li class="connecting-item">
+                                <a href="#" class="connecting-item__link" aria-label="Twitter">
+                                    <svg class="connecting-item__icon" width='20px' height='20px'>
                                         <use href='./images/sprite.svg#icon-twitter'></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="connecting-icon facebook" aria-label="Facebook">
-                                    <svg class="footer-ico" width='20px' height='20px'>
+                            <li class="connecting-item">
+                                <a href="#" class="connecting-item__link" aria-label="Facebook">
+                                    <svg class="connecting-item__icon" width='20px' height='20px'>
                                         <use href='./images/sprite.svg#icon-facebook'></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="connecting-icon linkidin" aria-label="LinkedIn">
-                                    <svg class="footer-ico" width='20px' height='20px'>
+                            <li class="connecting-item">
+                                <a href="#" class="connecting-item__link" aria-label="LinkedIn">
+                                    <svg class="connecting-item__icon" width='20px' height='20px'>
                                         <use href='./images/sprite.svg#icon-linkedin'></use>
                                     </svg>
                                 </a>
@@ -292,11 +291,11 @@
                 </div>
                 <!-- ПОДПИШИСЬ -->
                 <div class="subscribe-box">
-                    <p class="subscribe-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+                    <p class="subscribe-box__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
                     <div>
                         <input type="email" name="email" placeholder="E-mail">
-                        <button type="button" class="subscribe-button">Подписаться
-                            <svg class="subscribe-ico-button" width="24px" height="24px">
+                        <button type="submit" class="subscribe-box__button">Подписаться
+                            <svg class="subscribe-box__button-ico" width="24px" height="24px">
                                 <use href="./images/sprite.svg#icon-send"></use>
                             </svg>
                         </button>
