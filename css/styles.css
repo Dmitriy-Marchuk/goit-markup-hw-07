@@ -950,7 +950,7 @@ ul {
   transform: translateY(0);
 }
 
-.radio-filter-item:hover .radio-filter-thumb__hover {
+.radio-filter-item:hover .radio-filter-thumb__hover-box {
   transform: translateY(0);
 }
 
@@ -968,7 +968,7 @@ ul {
   bottom: 0;
   transform: translateY(100%);
 }
-.radio-filter-thumb__hover {
+.radio-filter-thumb__hover-box {
   display: inline-block;
   position: absolute;
   content: "";
